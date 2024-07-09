@@ -106,8 +106,6 @@ body{
     height: 500px;
     margin-bottom: 120px;
 }
-
-
 }
 /* offer section ends here */
 
@@ -162,4 +160,46 @@ body{
     margin-top: 70px;
 }
 /*party section styles ends here*/
+
+/*place, date, time styles starts here*/
+
+/*invitation-section-styles*/
+
+.invitation-section{
+    width: 1320px;
+    height: 480px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;   
+}
+
+.invitation-section>p{
+    color: rgb(7, 2, 17);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.invitation-section>p>span{
+    color: rgb(255, 0, 0);
+}
+
+.invitation-section>button{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+
+/*place, date, time styles ends here*/
+
 
